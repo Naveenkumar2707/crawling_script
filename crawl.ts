@@ -4,6 +4,8 @@ const rp = require("request-promise")
 let urlString: string;
 let searchStrings: string[] = [];
 
+
+
 async function init(): Promise<void> {
     const args = process.argv.slice(2)
     if (!args[0] || !args[1]) {
